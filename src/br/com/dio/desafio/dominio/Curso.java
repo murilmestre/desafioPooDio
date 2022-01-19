@@ -5,6 +5,9 @@ public class Curso {
     String descricao;
     int cargaHoraria;
 
+    public Curso() {
+    }
+
     public String getTitulo() {
         return titulo;
     }
@@ -31,10 +34,9 @@ public class Curso {
 
     @Override
     public String toString() {
-        return "Curso{" +
-                "titulo='" + titulo + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", cargaHoraria=" + cargaHoraria +
-                '}';
+        return "Curso:"+"\n" +
+                "titulo= '" + titulo + '\'' +
+                ", descricao ='" + descricao + '\'' +
+                ", cargaHoraria = " + cargaHoraria;
     }
 }
